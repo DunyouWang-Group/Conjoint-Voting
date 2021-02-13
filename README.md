@@ -1,14 +1,16 @@
 # Joint Voting
 This project hosts the data and source code for the paper “Prediction of atomic-level mechanism of Chemical Reaction Based on Machine Learning”.
 
-Raw data and Organized Datasets are organized in ten classes.
+The learning and verifying datasets, as well as the original 1700 learning and 300 verifying trajectories, are organized in ten classes.
 
-All compressed files need to be downloaded before decompression, incomplete download will cause decompression failure.
+You need to download all parts of the compressed file before decompression. Incomplete download will cause decompression to fail.
 
-The file name of the CSV file in the Organized Datasets is splitted by "$MFBMFB$", it sequentially represents the collision energy of the current trajectory, class , the impact parameters (b) and trajectory number.
+The file name of the CSV file in the dataset is divided into four parts with "$MFBMFB$": the collision energy of the current trajectory, class, impact parameter (b) and trajectory id (used to distinguish different trajectories).
 
-The true classes of 300 verifying trajectories, please refer to “Supplementary Information for 300 Verifying Trajectories.xlsx”.
+For the actual classes of 300 verifying trajectories, please refer to " Supplementary Information for 300 Verifying Trajectories. xlsx".
 
 System Requirements:
-1.	Python 3.8           https://www.python.org/
+1.	Python 3.8         https://www.python.org/
 2.	Scikit-learn 0.22    https://scikit-learn.org/stable/
+
+If you have any questions, please contact Email: fanbinmeng@qq.com
