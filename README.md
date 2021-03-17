@@ -1,4 +1,4 @@
-# Joint Voting
+# Joint-Voting
 This project hosts the data and source code for the paper "Machine Learning to Predict Atomic-Level Mechanisms of Chemical Reactions".
 
 The learning and verifying datasets, as well as the original 1700 learning and 300 verifying trajectories, are organized in ten classes.
