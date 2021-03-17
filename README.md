@@ -9,7 +9,9 @@ The file name of the CSV file in the dataset is divided into four parts with "$M
 
 For the actual classes of 300 verifying trajectories, please refer to " Supplementary Information for 300 Verifying Trajectories. xlsx".
 
-The "Samples" folder contains Python code and NWChem input sample files
+The "Code" folder contains Python code and input sample files.
+
+The "NWChem" folder contains NWChem input sample files.
 
 System Requirements:
 1.	Python 3.8         https://www.python.org/
