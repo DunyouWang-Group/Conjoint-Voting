@@ -1,0 +1,33 @@
+memory total 2000 mb
+start nh2
+echo
+print low
+charge -1
+geometry noautosym noautoz nocenter 
+ N   0.3123586 -0.4123378 13.2215968
+ H  -0.2866252 -1.1274290 12.9761144
+ H   1.1934109 -0.7776067 13.3371928
+ I  -0.0416797  0.0606438 15.2255785
+ F   0.0000000  0.0000000  0.0000000
+end
+basis
+ N  library aug-cc-pvdz
+ H  library aug-cc-pvdz
+ F  library aug-cc-pvdz
+ I  library "LANL2DZ ECP"
+end
+ecp
+ I library "LANL2DZ ECP"
+end
+dft
+   xc m06-2x
+end
+qmd
+  nstep_nucl  20000
+  dt_nucl     10.0
+  targ_temp   298.15
+  com_step    10
+  thermostat  none
+  print_xyz   10
+end
+task dft qmd
