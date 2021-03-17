@@ -14,7 +14,8 @@ The "Code" folder contains Python code and input sample files.
 The "NWChem" folder contains NWChem input sample files.
 
 System Requirements:
-1.	Python 3.8         https://www.python.org/
+1.	Python 3.8           https://www.python.org/
 2.	Scikit-learn 0.22    https://scikit-learn.org/stable/
+3.  NWChem 6.8.1         https://www.nwchem-sw.org/
 
 If you have any questions, please contact Email: fanbinmeng@qq.com
